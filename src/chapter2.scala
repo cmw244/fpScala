@@ -14,6 +14,7 @@ object Factorial {
 
 // Exercise 2
 object IsSorted {
+    @tailrec
     def isSorted[A](as: Array[A], gt: (A,A) => Boolean): Boolean = {
         as.toList match {
             case Nil => true
