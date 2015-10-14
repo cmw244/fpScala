@@ -1,3 +1,5 @@
+package clen.curry
+
 import scala.annotation.tailrec
 
 // Exercise 1
